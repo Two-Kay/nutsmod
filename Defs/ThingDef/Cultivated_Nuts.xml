@@ -12,11 +12,11 @@
       <MarketValue>1.1</MarketValue>
     </statBases>
     <ingestible>
-      <foodType>VegetableOrFruit</foodType>
+      <foodType>Seed</foodType>
     </ingestible>
     <comps>
       <li Class="CompProperties_Rottable">
-        <daysToRotStart>2000</daysToRotStart>
+        <daysToRotStart>30</daysToRotStart>
         <rotDestroys>true</rotDestroys>
       </li>
     </comps>
