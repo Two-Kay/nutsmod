@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<ThingDef Class="Nuts.ThingDef_Nuts" ParentName="PlantFoodRawBase">
+    <defName>Twokay_Nuts</defName>
+    <label>nuts</label>
+    <description>Delicious nuts from trees!</description>
+    <graphicData>
+      <texPath>Things/Items/Nuts</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>2000</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef Class="Nuts.ThingDef_NutTree" ParentName="PlantBase">
+    <defName>Plant_NutTree</defName>
+    <label>nut tree</label>
+    <description>A highly nutritious tuber. Potatoes grow well even in somewhat poor soil, and form a delicious crispy outer coating when fried in oil.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.2</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/PotatoPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+      <fertilitySensitivity>0.4</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>Twokay_Nuts</harvestedThingDef>
+      <harvestYield>11</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>5.8</growDays>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+
+</Defs>

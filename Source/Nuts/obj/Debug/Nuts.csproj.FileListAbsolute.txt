@@ -1,0 +1,5 @@
+D:\Steam\steamapps\common\RimWorld\Mods\Nuts\Source\Nuts\obj\Debug\Nuts.csprojAssemblyReference.cache
+D:\Steam\steamapps\common\RimWorld\Mods\Nuts\Source\Nuts\obj\Debug\Nuts.csproj.CoreCompileInputs.cache
+D:\Steam\steamapps\common\RimWorld\Mods\Nuts\Assemblies\Nuts.dll.config
+D:\Steam\steamapps\common\RimWorld\Mods\Nuts\Assemblies\Nuts.dll
+D:\Steam\steamapps\common\RimWorld\Mods\Nuts\Source\Nuts\obj\Debug\Nuts.dll

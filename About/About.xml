@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Nuts, go nuts edition!</name>
+	<packageId>Twokay.Nuts.Specific</packageId>
+	<author>Twokay</author>
+	<supportedVersions><li>1.2</li></supportedVersions>
+	<description>V1.0
+    This mod adds nuts so your colonists can eat nuts off trees.
+		</description>
+</ModMetaData>
